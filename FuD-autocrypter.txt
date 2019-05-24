@@ -1,6 +1,6 @@
 #include <StaticConstants.au3>
 #include <WindowsConstants.au3>
-#u get any problem check me out +255625524872 E-mail mranonymousTZ@gmail.com
+#u get any problem check me out E-mail mranonymousTZ@gmail.com
 
 Local $urls = "UR DIRECT LINK 1,UR DIRECT LINK 2"
 

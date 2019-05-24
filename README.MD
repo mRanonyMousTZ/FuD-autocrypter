@@ -5,6 +5,8 @@ Therefore using this peace of code will help you to hide your virus,backdoors ec
 only u need is to upload UR BACKDOORS to server and generate direct download link then edit THIS script with any txt editor.
 paste those links inside then THEN FOLOW ME in my video below to see how to configure it
 
+watch https://youtu.be/_RLvY1d9yHA
+
 The effect of this is when a victim run it , it start to download ur backdoors and execute them automaticaly.
 
 if u have any problem check me out
